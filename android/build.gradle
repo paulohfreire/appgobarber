@@ -35,3 +35,8 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+project.ext.vectoricons = [
+    iconFontNames: [ 'Feather.ttf' ]
+]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
